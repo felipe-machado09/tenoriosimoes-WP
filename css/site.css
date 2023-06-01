@@ -1,0 +1,234 @@
+#main-nav {
+  background: #fff;
+}
+#main-nav img {
+  max-width: 200px;
+  height: auto;
+}
+#main-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#main-nav ul li {
+  border-bottom: 1px solid #dedede;
+  margin-left: 5px;
+}
+#main-nav ul li a {
+  text-transform: uppercase;
+  color: #510C16;
+  font-weight: 500;
+}
+#main-nav ul li :hover {
+  border-bottom: 1px solid #DE361C;
+  color: #DE361C;
+}
+#main-nav ul li:last-child {
+  background: #DE361C;
+  border-bottom: 1px solid transparent;
+}
+#main-nav ul li:last-child a {
+  color: #fff;
+}
+#main-nav ul li:last-child :hover {
+  border-bottom: 1px solid transparent;
+}
+#wrapper-footer-full {
+  background: #DE361C;
+}
+#wrapper-footer-full .widget-title {
+  color: #510C16;
+  font-size: 16px;
+  font-weight: bold;
+}
+#wrapper-footer-full .widget_media_image {
+  padding: 70px 0;
+}
+#wrapper-footer-full ul {
+  list-style: none;
+  padding: 0;
+}
+#wrapper-footer-full ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#wrapper-footer-full ul li a:hover {
+  color: #510C16;
+}
+#wrapper-footer {
+  background: #510C16;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 12;
+}
+#wrapper-footer p {
+  margin: 0;
+  line-height: 20px;
+}
+.titulo {
+  text-align: center;
+}
+.titulo h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #DE361C;
+  margin: 35px 0;
+}
+.titulo2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #DE361C;
+  margin: 55px 0;
+}
+.wpcf7 {
+  max-width: none;
+  margin: 0 auto !important;
+}
+.bold {
+  font-weight: bold;
+}
+.section-container {
+  margin: 25px 0;
+  padding: 35px 0;
+}
+.bg-laranja {
+  background: #DE361C;
+}
+.bg-cinza {
+  background: #dedede;
+}
+.bg-marrom {
+  background: #510C16;
+}
+.txt-branca {
+  color: #fff !important;
+}
+.txt-marrom {
+  color: #510C16 !important;
+}
+.wpcf7-submit {
+  background: #DE361C;
+  color: #fff !important;
+  padding: 7px 20px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  font-size: 16px !important;
+  border-color: transparent !important;
+}
+.wpcf7-submit:hover {
+  background: #fff !important;
+  color: #DE361C !important;
+  border-color: transparent !important;
+}
+.empreendimentos-archive {
+  margin: 35px 0;
+}
+.empreendimentos-archive .card-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+.empreendimentos-archive .card-container .card_status {
+  font-size: 1.5em;
+  color: #DE361C;
+}
+.empreendimentos-archive .card-container .card-img {
+  height: 250px;
+  width: 100%;
+}
+.empreendimentos-archive .card-container .card_title {
+  margin: 15px 0;
+  color: #DE361C;
+  font-weight: bold;
+}
+.empreendimentos-archive .card-container .card_description {
+  color: #510C16;
+}
+.empreendimentos-archive .card-container .card_saiba_mais {
+  color: #fff;
+  font-weight: bold;
+  background: #510C16;
+}
+.banner-container {
+  height: 500px;
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  padding: 50px 0 50px 0;
+  border-bottom: 4px solid #DE361C;
+}
+.banner-container .banner-content {
+  padding-top: 150px;
+}
+.banner-container .banner-content .texto-header {
+  text-align: center;
+  color: #fff;
+}
+.banner-container .banner-content .texto-header p {
+  font-weight: 600;
+}
+.empreendimentos-page {
+  text-align: center;
+  margin: 35px 0;
+}
+.empreendimentos-page img {
+  margin: 35px 0;
+}
+.empreendimentos-page h1 {
+  color: #510C16;
+}
+.empreendimentos-page p {
+  color: #510C16;
+  margin-bottom: 35px;
+}
+.slick-arrow {
+  padding: 0 !important;
+}
+.social-links a {
+  border: 2px solid #510C16;
+  padding: 5px;
+  margin-left: 10px;
+  text-align: center;
+}
+.social-links a i {
+  width: 20px;
+  color: #510C16;
+}
+.ultimos-posts {
+  margin: 15px 0;
+}
+.ultimos-posts .card-container a {
+  background-color: pink;
+}
+.ultimos-posts .card-container a #card-img {
+  width: 100% !important;
+  height: 150px !important;
+}
+.ultimos-posts .card-container a h3 {
+  margin: 15px 0;
+  font-size: 16px;
+  color: #510C16;
+  font-weight: bold;
+}
+.ultimos-posts .card-container a .card_description {
+  font-size: 14px;
+  color: #510C16;
+}
+@media screen and (max-device-width: 480px) {
+  #wrapper-footer-full {
+    text-align: center;
+  }
+  #main-nav ul li {
+    padding-left: 15px;
+  }
+}

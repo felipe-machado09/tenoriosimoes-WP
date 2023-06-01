@@ -23,21 +23,17 @@ defined( 'ABSPATH' ) || exit;
 
 	</header><!-- .entry-header -->
 
-	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+	<?php echo get_the_post_thumbnail( $post->ID, 'full' ); ?>
+	<?php echo get_the_post_thumbnail_url( 
 
 	<div class="entry-content">
 
 		<?php
 		the_content();
-		understrap_link_pages();
+
 		?>
 
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-
-		<?php understrap_entry_footer(); ?>
-
-	</footer><!-- .entry-footer -->
 
 </article><!-- #post-<?php the_ID(); ?> -->

@@ -1,0 +1,79 @@
+@dots-size: 12px;
+@dots-spacing: 5px;
+@branco: #fff;
+@laranja: #DE361C;
+@marrom: #510C16;
+@cinza: #dedede;
+
+.empreendimento-home-slider {
+  padding-top: 35px;
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: @dots-spacing;
+    ul {
+      list-style-type: none;
+  } 
+    li {
+      button:before {
+        content: "";
+      }
+      list-style-type:none;
+
+      button {
+        width: @dots-size;
+        height: @dots-size;
+        border-radius: 50%;
+        border: none;
+        background-color: @laranja;
+        margin: 0 @dots-spacing;
+        text-indent: -9999px;
+        border: 2px solid @laranja;
+        padding: 10px;
+        margin-top: 20px;
+        &:hover{
+          background-color: @marrom;
+        }
+      }
+      button:hover  {
+        background-color: @marrom;
+      }
+
+    }
+    li.slick-active {
+      button {
+        background-color: @marrom;
+      }
+    }
+  }
+  .card_title{
+    font-size: 24px;
+    font-weight: 600;
+    color: @branco;
+    margin-bottom: 20px;
+    margin-top: 100px;
+  }
+  .card_description{
+    font-size: 32px;
+    color: @branco;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  .card_conheca{
+    background-color: @laranja;
+    color: @branco;
+    font-size: 16px;
+    padding: 12px 20px;
+    font-weight: 600;
+
+  }
+  .card_conheca:hover{
+    background-color: @branco;
+    color: @laranja;
+  }
+
+}
+
+
+

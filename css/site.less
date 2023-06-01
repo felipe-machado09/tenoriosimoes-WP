@@ -1,0 +1,316 @@
+@branco: #fff;
+@laranja: #DE361C;
+@marrom: #510C16;
+@cinza: #dedede;
+
+#main-nav {
+
+  background: @branco;
+
+  img {
+    max-width: 200px;
+    ;
+    height: auto;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+      border-bottom: 1px solid @cinza;
+      margin-left: 5px;
+
+      a {
+        text-transform: uppercase;
+        color: @marrom;
+        font-weight: 500;
+      }
+
+      :hover {
+        border-bottom: 1px solid @laranja;
+        color: @laranja;
+      }
+
+    }
+
+    li:last-child {
+      background: @laranja;
+      border-bottom: 1px solid transparent;
+
+      a {
+        color: @branco;
+      }
+
+      :hover {
+        border-bottom: 1px solid transparent;
+      }
+    }
+
+  }
+}
+
+
+#wrapper-footer-full {
+  background: @laranja;
+
+  .widget-title {
+    color: @marrom;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .widget_media_image {
+    padding: 70px 0;
+
+    img {}
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      a {
+        color: @branco;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: bold;
+        cursor: pointer;
+
+        &:hover {
+          color: @marrom;
+        }
+      }
+    }
+  }
+}
+
+
+#wrapper-footer {
+  background: @marrom;
+  color: @branco;
+  padding: 20px;
+  text-align: center;
+  font-size: 12;
+
+  p {
+    margin: 0;
+    line-height: 20px;
+  }
+}
+
+.titulo {
+  text-align: center;
+
+  h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: @laranja;
+    // border: solid 2px @laranja  ;
+    // width: 219px;
+    // height: 63px;
+    margin: 35px 0;
+  }
+}
+
+.titulo2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: @laranja;
+  // border: solid 2px @laranja  ;
+  // width: 219px;
+  // height: 63px;
+  margin: 55px 0;
+
+}
+
+
+.wpcf7 {
+  max-width: none;
+  margin: 0 auto !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.section-container {
+  margin: 25px 0;
+  padding: 35px 0;
+}
+
+.bg-laranja {
+  background: @laranja;
+}
+
+.bg-cinza {
+  background: @cinza;
+}
+
+.bg-marrom {
+  background: @marrom;
+}
+
+.txt-branca {
+  color: @branco  !important;
+}
+
+.txt-marrom {
+  color: @marrom  !important;
+}
+
+.wpcf7-submit {
+  background: @laranja;
+  color: @branco  !important;
+  padding: 7px 20px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  font-size: 16px !important;
+  border-color: transparent !important;
+
+  &:hover {
+    background: @branco  !important;
+    color: @laranja  !important;
+    border-color: transparent !important;
+  }
+}
+
+.empreendimentos-archive {
+  margin: 35px 0;
+
+  .card-container {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    width: 100%;
+
+    .card_status {
+      font-size: 1.5em;
+      color: @laranja;
+    }
+
+    .card-img {
+      height: 250px;
+      width: 100%;
+    }
+
+    .card_title {
+      margin: 15px 0;
+      color: @laranja;
+      font-weight: bold;
+    }
+
+    .card_description {
+      color: @marrom;
+    }
+
+    .card_saiba_mais {
+      color: @branco;
+      font-weight: bold;
+      background: @marrom;
+    }
+  }
+}
+
+.banner-container {
+
+  height: 500px;
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  padding: 50px 0 50px 0;
+  border-bottom: 4px solid @laranja;
+
+  .banner-content {
+    padding-top: 150px;
+
+    .texto-header {
+      text-align: center;
+      color: @branco;
+
+      p {
+        font-weight: 600;
+      }
+    }
+  }
+
+}
+
+.empreendimentos-page {
+  text-align: center;
+  margin: 35px 0;
+  img {
+    margin: 35px 0;
+  }
+
+  h1 {
+
+    color: @marrom;
+  }
+
+  p {
+    color: @marrom;
+    margin-bottom: 35px;
+  }
+}
+
+.slick-arrow{
+  padding: 0 !important;
+}
+
+.social-links{
+  a{
+    border: 2px solid @marrom;
+    padding: 5px;
+    margin-left: 10px;
+    text-align: center;
+    i{
+      width: 20px;
+      color: @marrom;
+    }
+  }
+}
+
+.ultimos-posts{
+  margin: 15px 0;
+  .card-container{
+    a{
+      background-color: pink;
+      #card-img{
+        width: 100% !important;
+        height: 150px !important;
+      }
+      h3{
+        margin: 15px 0;
+        font-size: 16px;
+        color: @marrom;
+        font-weight: bold;
+      }
+      .card_description{
+        font-size: 14px;
+        color: @marrom;
+      }
+    }
+  }
+ 
+}
+
+// mobile
+
+@media screen and (max-device-width: 480px) {
+
+  #wrapper-footer-full {
+     text-align: center;
+  }
+  #main-nav ul li {
+  padding-left: 15px;
+}
+}
