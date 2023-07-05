@@ -265,3 +265,52 @@
 .slick-arrow{
   padding: 0 !important;
 }
+
+.social-links{
+  a{
+    border: 2px solid @marrom;
+    padding: 5px;
+    margin-left: 10px;
+    text-align: center;
+    i{
+      width: 20px;
+      color: @marrom;
+    }
+  }
+}
+
+.ultimos-posts{
+  margin: 15px 0;
+  .card-container{
+    a{
+      background-color: pink;
+      #card-img{
+        width: 100% !important;
+        height: 150px !important;
+      }
+      h3{
+        margin: 15px 0;
+        font-size: 16px;
+        color: @marrom;
+        font-weight: bold;
+      }
+      .card_description{
+        font-size: 14px;
+        color: @marrom;
+      }
+    }
+  }
+ 
+}
+
+// mobile
+
+@media screen and (max-device-width: 480px) {
+
+  #wrapper-footer-full {
+     text-align: center;
+  }
+  #main-nav ul li {
+  padding-left: 15px;
+}
+}
