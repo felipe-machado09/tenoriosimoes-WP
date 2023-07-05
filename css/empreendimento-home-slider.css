@@ -1,0 +1,63 @@
+.empreendimento-home-slider {
+  padding-top: 35px;
+}
+.empreendimento-home-slider .slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.empreendimento-home-slider .slick-dots ul {
+  list-style-type: none;
+}
+.empreendimento-home-slider .slick-dots li {
+  list-style-type: none;
+}
+.empreendimento-home-slider .slick-dots li button:before {
+  content: "";
+}
+.empreendimento-home-slider .slick-dots li button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background-color: #DE361C;
+  margin: 0 5px;
+  text-indent: -9999px;
+  border: 2px solid #DE361C;
+  padding: 10px;
+  margin-top: 20px;
+}
+.empreendimento-home-slider .slick-dots li button:hover {
+  background-color: #510C16;
+}
+.empreendimento-home-slider .slick-dots li button:hover {
+  background-color: #510C16;
+}
+.empreendimento-home-slider .slick-dots li.slick-active button {
+  background-color: #510C16;
+}
+.empreendimento-home-slider .card_title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+.empreendimento-home-slider .card_description {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.empreendimento-home-slider .card_conheca {
+  background-color: #DE361C;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 20px;
+  font-weight: 600;
+}
+.empreendimento-home-slider .card_conheca:hover {
+  background-color: #fff;
+  color: #DE361C;
+}

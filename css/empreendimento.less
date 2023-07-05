@@ -1,0 +1,323 @@
+
+@branco: #fff;
+@laranja: #DE361C;
+@laranja-fraco: #e85b45;
+@marrom: #510C16;
+@margin-section: 35px 0;
+@cinza: #dedede;
+
+.empreendimento-slider{
+  background-color: @laranja;
+  position: relative;
+  padding: 30px 0;
+  .card-container{
+    padding-left: 20px;
+    padding-right: 20px;
+
+    width: 100%;
+    .card_status{
+      font-size: 1.5em;
+      color: @branco;
+    }
+    .card-img{
+      height: 250px;
+      width: 100%;
+    }
+    .card_title{
+      color: @marrom;
+      font-weight: bold;
+    }
+    .card_description{
+      color: @branco;
+    }
+    .card_saiba_mais{
+      color: @branco;
+      font-weight: bold;
+      background: @marrom;
+    }
+  }
+}
+
+.slick-prev, .slick-next {
+  width: 50px;
+  height: 140px;
+  color: @marrom;
+  font-size: 2em;
+  background-color: transparent;
+  border: 3px solid @marrom;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-20px);
+}
+
+.slick-prev {
+  left: -60px; /* ou o valor que você quiser */
+}
+
+.slick-next {
+  right: -60px; /* ou o valor que você quiser */
+}
+
+.empreendimento{
+  .conheca-empreendimento{
+    text-align: center;
+    margin: @margin-section;
+    h2{
+     text-transform: uppercase;
+      font-weight: bold;
+    }
+    p{
+      color: @marrom;
+    }
+  }
+  .diferenciais{
+    text-align: center;
+    margin: @margin-section;
+    h2{
+      text-transform: uppercase;
+      font-weight: bold;
+      color: @marrom;
+      // border: solid 2px @laranja  ;
+      // width: 219px;
+      // height: 63px;
+      margin: 25px 0;
+    }
+    .diferencial{
+      .texto{
+        h3{
+          color: @marrom;
+          font-weight: bold;
+        }
+        p{
+          color: @marrom;
+        }
+      }
+    } 
+  }
+
+  .gostei-do-empreendimento{
+    margin: @margin-section;
+    .texto{
+      text-align: center;
+      p{
+        a{
+          background: @laranja;
+          color: @branco;
+          padding: 10px 20px;
+          font-weight: 600;
+          text-transform: uppercase;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+
+  .o-apartamento{
+    margin: @margin-section;
+    .texto{
+      text-align: center;
+      h2{
+        text-transform: uppercase;
+        font-weight: bold;
+        color: @laranja;
+        margin: @margin-section;
+      }
+      h3{
+        color: @marrom;
+        font-weight: bold;
+      }
+      p{
+        color: @marrom;
+      }
+
+    }
+  }
+
+.galeria-fotos{
+  .nav{
+    .nav-item{
+      .nav-link{
+        background: @laranja;
+      }
+    }
+  }
+}
+
+  .galeria-empreendimentos-for{
+
+    .slick-slide img {
+      display: initial;
+  }
+    .foto-box{
+      width: 100%;
+      text-align: center;
+      cursor: pointer;
+      .foto{
+        width: 100%;
+        padding: 15px;
+      }
+    }
+
+  }
+  
+  .galeria-empreendimentos-nav{
+
+    .slick-slide img {
+      display: initial;
+    }
+    .foto-box{
+      width: 100%;
+      text-align: center;
+      cursor: pointer;
+      .foto{
+        width: 100%;
+        padding: 15px;
+      }
+    }
+  }
+
+  .como_chegar{
+    padding: 25px 0;
+    .titulo{
+      background: @marrom;
+      padding: 15px 0;
+      margin-bottom: 25px;
+      h2{
+        font-weight: normal;
+        span{
+          font-weight: bold;
+        }
+      }
+      .icone{
+        background-color: @laranja-fraco;
+        color: @laranja;
+        padding: 55px 15px 15px 15px;
+        width: 70px;
+        height: 150px;
+        position: absolute;
+        right: 35px;
+        top: 13px;
+      }
+    }
+    .texto{
+      text-align: center;
+      margin-bottom: 35px;
+      font-size: 25px;
+    }
+   
+    .mapa{
+      p{
+        iframe{
+          width: 100%;
+          height: 400px;
+        }
+      }
+    }
+  }
+
+  .ficou-interessado{
+    padding: 25px 0;
+    .texto{
+      text-align: center;
+      margin-bottom: 35px;
+      font-size: 20px;
+    }
+  }
+
+  .conheca_o_bairro{
+    .texto{
+      text-align: center;
+    }
+  }
+}
+
+
+
+
+#galleria {
+  height: 400px; /* Defina a altura desejada para a galeria */
+}
+#galleria-plantas{
+  height: 400px; /* Defina a altura desejada para a galeria */
+}
+#galleria-empreendimento{
+  height: 400px; /* Defina a altura desejada para a galeria */
+}
+#galleria-bairro{
+  height: 400px; /* Defina a altura desejada para a galeria */
+}
+#galleria-estagio{
+  height: 487px; /* Defina a altura desejada para a galeria */
+}
+
+.galleria-theme-classic {
+  background: @cinza !important;
+}
+
+.custom-progress-container{
+  margin-bottom: 20px;
+  border: 2px solid @laranja;
+  border-radius: 5px;
+  padding: 20px;
+  h4{
+    color: @marrom !important;
+    font-weight: bold;
+  }
+  .custom-progress {
+
+    margin:20px  0 ;
+
+
+    .custom-progress-bar {
+      background-color: @cinza;
+      height: 20px;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .custom-progress-filled {
+      height: 100%;
+      background-color:  @laranja;
+    }
+  }
+}
+
+.custom-wrapper{
+  padding: 30px 0 0 0 !important;
+}
+  
+
+.banner-container{
+
+  height: 500px;
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  padding: 50px 0 50px 0;
+  border-bottom: 4px solid @laranja;
+  .banner-content{
+    .esquerda{
+      margin-top: 100px;
+      h1{
+        height: 35px;
+        font-weight: bold;
+        margin-bottom: 35px;
+      }
+      p{
+        margin: 0;
+        font-weight: bold;
+      }	
+    }
+    .direita{
+      text-align: center;
+      .img-pequena{
+        img{
+          border-bottom: 4px solid @laranja;
+        }
+      }
+      
+    }
+    
+  }
+}

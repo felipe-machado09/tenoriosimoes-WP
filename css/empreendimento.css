@@ -1,0 +1,262 @@
+.empreendimento-slider {
+  background-color: #DE361C;
+  position: relative;
+  padding: 30px 0;
+}
+.empreendimento-slider .card-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+.empreendimento-slider .card-container .card_status {
+  font-size: 1.5em;
+  color: #fff;
+}
+.empreendimento-slider .card-container .card-img {
+  height: 250px;
+  width: 100%;
+}
+.empreendimento-slider .card-container .card_title {
+  color: #510C16;
+  font-weight: bold;
+}
+.empreendimento-slider .card-container .card_description {
+  color: #fff;
+}
+.empreendimento-slider .card-container .card_saiba_mais {
+  color: #fff;
+  font-weight: bold;
+  background: #510C16;
+}
+.slick-prev,
+.slick-next {
+  width: 50px;
+  height: 140px;
+  color: #510C16;
+  font-size: 2em;
+  background-color: transparent;
+  border: 3px solid #510C16;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-20px);
+}
+.slick-prev {
+  left: -60px;
+  /* ou o valor que você quiser */
+}
+.slick-next {
+  right: -60px;
+  /* ou o valor que você quiser */
+}
+.empreendimento .conheca-empreendimento {
+  text-align: center;
+  margin: 35px 0;
+}
+.empreendimento .conheca-empreendimento h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.empreendimento .conheca-empreendimento p {
+  color: #510C16;
+}
+.empreendimento .diferenciais {
+  text-align: center;
+  margin: 35px 0;
+}
+.empreendimento .diferenciais h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #510C16;
+  margin: 25px 0;
+}
+.empreendimento .diferenciais .diferencial .texto h3 {
+  color: #510C16;
+  font-weight: bold;
+}
+.empreendimento .diferenciais .diferencial .texto p {
+  color: #510C16;
+}
+.empreendimento .gostei-do-empreendimento {
+  margin: 35px 0;
+}
+.empreendimento .gostei-do-empreendimento .texto {
+  text-align: center;
+}
+.empreendimento .gostei-do-empreendimento .texto p a {
+  background: #DE361C;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.empreendimento .o-apartamento {
+  margin: 35px 0;
+}
+.empreendimento .o-apartamento .texto {
+  text-align: center;
+}
+.empreendimento .o-apartamento .texto h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #DE361C;
+  margin: 35px 0;
+}
+.empreendimento .o-apartamento .texto h3 {
+  color: #510C16;
+  font-weight: bold;
+}
+.empreendimento .o-apartamento .texto p {
+  color: #510C16;
+}
+.empreendimento .galeria-fotos .nav .nav-item .nav-link {
+  background: #DE361C;
+}
+.empreendimento .galeria-empreendimentos-for .slick-slide img {
+  display: initial;
+}
+.empreendimento .galeria-empreendimentos-for .foto-box {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+.empreendimento .galeria-empreendimentos-for .foto-box .foto {
+  width: 100%;
+  padding: 15px;
+}
+.empreendimento .galeria-empreendimentos-nav .slick-slide img {
+  display: initial;
+}
+.empreendimento .galeria-empreendimentos-nav .foto-box {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+.empreendimento .galeria-empreendimentos-nav .foto-box .foto {
+  width: 100%;
+  padding: 15px;
+}
+.empreendimento .como_chegar {
+  padding: 25px 0;
+}
+.empreendimento .como_chegar .titulo {
+  background: #510C16;
+  padding: 15px 0;
+  margin-bottom: 25px;
+}
+.empreendimento .como_chegar .titulo h2 {
+  font-weight: normal;
+}
+.empreendimento .como_chegar .titulo h2 span {
+  font-weight: bold;
+}
+.empreendimento .como_chegar .titulo .icone {
+  background-color: #e85b45;
+  color: #DE361C;
+  padding: 55px 15px 15px 15px;
+  width: 70px;
+  height: 150px;
+  position: absolute;
+  right: 35px;
+  top: 13px;
+}
+.empreendimento .como_chegar .texto {
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 25px;
+}
+.empreendimento .como_chegar .mapa p iframe {
+  width: 100%;
+  height: 400px;
+}
+.empreendimento .ficou-interessado {
+  padding: 25px 0;
+}
+.empreendimento .ficou-interessado .texto {
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 20px;
+}
+.empreendimento .conheca_o_bairro .texto {
+  text-align: center;
+}
+#galleria {
+  height: 400px;
+  /* Defina a altura desejada para a galeria */
+}
+#galleria-plantas {
+  height: 400px;
+  /* Defina a altura desejada para a galeria */
+}
+#galleria-empreendimento {
+  height: 400px;
+  /* Defina a altura desejada para a galeria */
+}
+#galleria-bairro {
+  height: 400px;
+  /* Defina a altura desejada para a galeria */
+}
+#galleria-estagio {
+  height: 487px;
+  /* Defina a altura desejada para a galeria */
+}
+.galleria-theme-classic {
+  background: #dedede !important;
+}
+.custom-progress-container {
+  margin-bottom: 20px;
+  border: 2px solid #DE361C;
+  border-radius: 5px;
+  padding: 20px;
+}
+.custom-progress-container h4 {
+  color: #510C16 !important;
+  font-weight: bold;
+}
+.custom-progress-container .custom-progress {
+  margin: 20px  0 ;
+}
+.custom-progress-container .custom-progress .custom-progress-bar {
+  background-color: #dedede;
+  height: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.custom-progress-container .custom-progress .custom-progress-filled {
+  height: 100%;
+  background-color: #DE361C;
+}
+.custom-wrapper {
+  padding: 30px 0 0 0 !important;
+}
+.banner-container {
+  height: 500px;
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  padding: 50px 0 50px 0;
+  border-bottom: 4px solid #DE361C;
+}
+.banner-container .banner-content .esquerda {
+  margin-top: 100px;
+}
+.banner-container .banner-content .esquerda h1 {
+  height: 35px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+.banner-container .banner-content .esquerda p {
+  margin: 0;
+  font-weight: bold;
+}
+.banner-container .banner-content .direita {
+  text-align: center;
+}
+.banner-container .banner-content .direita .img-pequena img {
+  border-bottom: 4px solid #DE361C;
+}
